@@ -1,0 +1,19 @@
+{
+    "pedidos": [
+        {
+            "nome": "Pingado",
+            "valor": 5.5,
+            "id": 1
+        },
+        {
+            "nome": "Chocolate Quente",
+            "valor": 19.99,
+            "id": 2
+        },
+        {
+            "nome": "Pão com Ovo",
+            "valor": 7.5,
+            "id": 3
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title >Novo pedido</title>
+  <style>
+    h1{
+      text-align: center;
+    }
+  </style>
+
+</head>
+<body>
+
+  
+  <div>
+    <h1 class="display-4">Criar Pedido</h1>
+
+    <form action="/pedido/novo" method="post">
+      <div>
+        <div >
+          <label for="exampleInputEmail1">Nome</label>
+          <input type="text" class="form-control" placeholder="Nome" name="nome"  maxlength="40" >
+        </div>
+      </div>
+      <div>
+      
+        <div >
+          <label for="value">Valor</label>
+          <input type="text" class="form-control" placeholder="R$0,00" name="valor"  >
+        </div>
+      </div>
+      <div>
+      </div>
+      <button class = "btn btn-primary btn-lg btn-block" type="submit">Criar</button>
+    </form>
+    </div>
+  </div>
+</body>
+</html>
